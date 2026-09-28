@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater-App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wheater App</h1>
+        <form>
+            <input type="text" id="city-input" placeholder="Enter your City">
+            <input type="submit" value="Get Wheater">
+        </form>
+        <div id="weather-data">
+            <div class="icon">
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="weather icon">
+            </div>
+            <div class="temperature">°C</div>
+            <div class="description"></div>
+            <div class="details">
+                <div>Feels like: 22°C</div>
+                <div>Humidity: 40%</div>
+                <div>Wind Speed: 5m/s</div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
